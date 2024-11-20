@@ -1,0 +1,26 @@
+/* src/components/NotFound.css */
+.not-found-container {
+    text-align: center;
+    margin-top: 50px;
+    color: #333;
+  }
+  
+  .not-found-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .not-found-text {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+  }
+  
+  .not-found-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .not-found-link:hover {
+    text-decoration: underline;
+  }
+  
