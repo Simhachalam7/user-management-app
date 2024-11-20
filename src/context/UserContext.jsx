@@ -7,7 +7,6 @@ const UserContext = createContext();
 // Custom Hook
 export const useUserContext = () => useContext(UserContext);
 
-// Sample users for fallback
 const sampleUsers = [
   { id: 1, name: 'John Doe', email: 'john@example.com', company: 'Tech Inc.' },
   { id: 2, name: 'Jane Smith', email: 'jane@example.com', company: 'Biz Corp.' },

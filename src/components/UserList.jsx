@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useUserContext } from '../context/UserContext';
-import './UserList.css';
+import '../styles/UserList.css';
 
 const UserList = () => {
   const { users, setUsers } = useUserContext();
